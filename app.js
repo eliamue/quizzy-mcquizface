@@ -1,12 +1,11 @@
-                // import functions and grab DOM elements
 //export functions
 import { isYes } from './utils.js';
+
 //DOM elements
 const button = document.getElementById('boaty-button');
 const quizResults = document.getElementById('quiz-results');
 
-
-                //event listeners
+//event listener
 button.addEventListener('click', () => {
 
 //alert that quiz is triggering
@@ -17,6 +16,7 @@ button.addEventListener('click', () => {
     if (wantQuiz === false) {
         return;
     }
+
 //name
     const firstName = prompt('What is your first name, champ?');
     const lastName = prompt('What is your last name, sport?');
@@ -34,13 +34,11 @@ button.addEventListener('click', () => {
         score = score + 1;
     }
 
-
 //Question 3
     const answer3 = prompt('Will Boaty be used for anything vital? y/n');
     if (isYes(answer3)) {
         score = score + 1;
     }
-
 
 //results
     quizResults.textContent = `Well look at you, ${firstName} ${lastName}, you got ${score} out of 3!`;

@@ -38,6 +38,10 @@ header {
     justify-content: flex-end;
     height: var(--header-height);
     box-shadow: var(--shadow);
+    position: fixed;
+    background-color: rgba(255, 255, 0, 0.139);
+    width: 100%;
+    z-index: 100;
 }
 
 footer {
