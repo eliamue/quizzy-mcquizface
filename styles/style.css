@@ -15,6 +15,7 @@ main {
     justify-content: center;
     align-items: center;
     margin-bottom: calc(var(--footer-height));
+    font-family: 'Lora', serif;
 }
 
 section {
@@ -36,12 +37,13 @@ section {
 header {
     display: flex;
     justify-content: flex-end;
-    height: var(--header-height);
+    height: 1fr;
     box-shadow: var(--shadow);
     position: fixed;
     background-color: rgba(255, 255, 0, 0.139);
     width: 100%;
     z-index: 100;
+    padding: 5px;
 }
 
 footer {
@@ -62,6 +64,7 @@ h3 {
     font-size: 2rem;
     font-weight: bold;
     color: rgb(0, 107, 189);
+    padding: 5px;
 }
 
 .gutter-right {
@@ -79,6 +82,7 @@ header img {
 p {
     margin: var(--gutter);
     font-size: 20px;
+    padding: 5px;
 }
 
 footer {
@@ -100,13 +104,14 @@ footer {
 
 #rss-img, #boaty-img {
     height: 400px;
-    margin: 20px;
-    margin-left: 80px;
+    margin: 1fr;
+    max-width: 80%;
+    max-height: 80%;
 }
 
 button {
     margin: 10px;
-    padding: 15px;
+    padding: 5px;
     font-size: larger;
     color:rgba(21, 124, 147, 0.68);
     background-color: rgb(255, 247, 0);
@@ -115,18 +120,22 @@ button {
     border: double 4px rgb(206, 182, 2);
     border-radius: 30px;
     align-content: center;
+    text-align: center;
 }
 #quiz-results {
     display: none;
-    font-size: 30px;
+    font-size: 1.5rem;
     background-color: rgba(21, 124, 147, 0.68);
     align-content: center;
     justify-content: center;
-    margin: 5px;
-    padding: 10px;
     border: 2px inset royalblue;
     border-radius: 20px;
     color:rgb(242, 255, 5);
+    min-width: flex;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    text-justify: unset;
 }
 ol {
     list-style: decimal;
