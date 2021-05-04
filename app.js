@@ -22,7 +22,7 @@ button.addEventListener('click', () => {
     const lastName = prompt('What is your last name, sport?');
 
 //Question 1
-    const answer1 = prompt('Was Boaty McBoatface the first viral example of an official naming contest resulting in a "Something McSomething" winning name? y/n');
+    const answer1 = prompt('Okay, was Boaty McBoatface the first viral example of an official naming contest resulting in a "Something McSomething" winning name? y/n');
     let score = 0;
     if (!isYes(answer1)) {
         score = score + 1;
