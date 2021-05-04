@@ -52,6 +52,11 @@ h2 {
     font-weight: bold;
     color: rgb(0, 107, 189);
 }
+h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(0, 107, 189);
+}
 
 .gutter-right {
     margin-right: 20px;
@@ -116,4 +121,14 @@ button {
     border: 2px inset royalblue;
     border-radius: 20px;
     color:rgb(242, 255, 5);
+}
+ol {
+    list-style: decimal;
+    font-size: 20px;
+    align-content: center;
+}
+ul {
+    list-style: circle;
+    font-size: 20px;
+    align-content: center;
 }
