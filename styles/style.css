@@ -55,6 +55,8 @@ h2 {
     font-size: 3rem;
     font-weight: bold;
     color: rgb(0, 107, 189);
+    margin: 5px;
+    padding: 5px;
 }
 h3 {
     font-size: 2rem;
@@ -135,4 +137,5 @@ ul {
     list-style: circle;
     font-size: 20px;
     align-content: center;
+    max-width: 80%;
 }
